@@ -1,0 +1,104 @@
+{
+   "workbench.sideBar.location": "right",
+   "workbench.iconTheme": "material-icon-theme",
+   "vscord.status.details.text.debugging": "Debug: {file_name}{file_extension}",
+   "vscord.status.details.text.editing": "Workspace:  {workspace}",
+   "vscord.status.details.text.idle": "Away From Keyboard.",
+   "vscord.status.details.text.notInFile": "",
+   "vscord.status.details.text.noWorkSpaceText": "",
+   "vscord.status.details.text.viewing": "Workspace: {workspace}",
+   "vscord.status.state.text.debugging": "Debug: {workspace}",
+   "vscord.status.state.text.editing": "Edit: {file_name}{file_extension}",
+   "vscord.status.state.text.noWorkspaceFound": "",
+   "vscord.status.state.text.viewing": "View: {file_name}{file_extension}",
+   "vscord.status.image.large.idle.text": "AFK",
+   "vscord.status.image.small.idle.text": "",
+   "vscord.status.image.small.notInFile.text": "",
+   "editor.fontSize": 13,
+   "editor.fontFamily": "SF Mono Thin",
+   "editor.tokenColorCustomizations": {
+       "textMateRules": [
+           {
+               "scope": [
+                   "comment"
+               ],
+               "settings": {
+                   "foreground": "#b6b6b6" // Set to green color for comments
+               }
+           },
+           {
+               "scope": [
+                   "constant", // String, Number, Boolean…, this, super
+                   "storage.modifier", // static keyword
+                   "storage.type.class.js", // class keyword
+                   "keyword", // import, export, return…
+                   "keyword.control",
+                   "keyword.operator",
+                   "keyword.function",
+                   "keyword.class",
+                   "keyword.return",
+                   "support.function.console"
+               ],
+               "settings": {
+                   "fontStyle": "italic"
+               }
+           },
+           {
+               "scope": [
+                   "invalid",
+                   "constant.numeric.css",
+                   "keyword.other.unit.px.css",
+                   "constant.numeric.decimal.js",
+                   "constant.numeric.json"
+               ],
+               "settings": {
+                   "fontStyle": ""
+               }
+           }
+       ]
+   },
+   "files.autoSave": "afterDelay",
+   "files.autoSaveDelay": 1000,
+   "editor.wordWrap": "on",
+   "editor.cursorStyle": "line-thin",
+   "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+   "workbench.colorCustomizations": {
+       "activityBar.foreground": "#ffffff"
+   },
+   "editor.defaultFormatter": "esbenp.prettier-vscode",
+   "prettier.tabWidth": 4,
+   "prettier.trailingComma": "all",
+   "prettier.vueIndentScriptAndStyle": true,
+   "vscord.app.name": "Visual Studio Code",
+   "oneDarkPro.vivid": true,
+   "terminal.integrated.defaultProfile.windows": "Git Bash",
+   "discord.lowerDetailsNoWorkspaceFound": "",
+   "discord.lowerDetailsIdling": "",
+   "discord.largeImageIdling": "",
+   "editor.tabSize": 3,
+   "editor.tabCompletion": "on",
+   "indentRainbow.indicatorStyle": "classic",
+   "glassit.alpha": 255,
+   "workbench.editor.editorActionsLocation": "titleBar",
+   "workbench.editor.highlightModifiedTabs": true,
+   "workbench.editor.tabSizingFixedMaxWidth": 110,
+   "window.density.editorTabHeight": "compact",
+   "prettier.withNodeModules": true,
+   "prettier.useTabs": true,
+   "prettier.semi": false,
+   "terminal.integrated.fontFamily": "SF Mono",
+   "terminal.integrated.fontWeightBold": "normal",
+   "editor.fontWeight": "368",
+   "workbench.colorTheme": "One Dark Pro Darker",
+   "editor.fontLigatures": false,
+   "editor.experimentalWhitespaceRendering": "font",
+   "vscode-pets.throwBallWithMouse": true,
+   "vscode-pets.theme": "castle",
+   "indentRainbow.lightIndicatorStyleLineWidth": 1,
+   "indentRainbow.ignoreLinePatterns": [
+
+       "/[ \t]* [*]/g",
+       "/[ \t]+[/]{2}/g"
+   ],
+   "editor.wrappingIndent": "deepIndent"
+}
