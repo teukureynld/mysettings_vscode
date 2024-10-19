@@ -2,7 +2,7 @@
     "workbench.sideBar.location": "right",
     "workbench.iconTheme": "vscode-icons",
     "vscord.status.details.text.debugging": "Debug: {file_name}{file_extension}",
-    "vscord.status.details.text.editing": "Workspace:  {workspace}",
+    "vscord.status.details.text.editing": "Workspace: {workspace}",
     "vscord.status.details.text.idle": "Away From Keyboard.",
     "vscord.status.details.text.notInFile": "",
     "vscord.status.details.text.noWorkSpaceText": "",
@@ -14,59 +14,50 @@
     "vscord.status.image.large.idle.text": "AFK",
     "vscord.status.image.small.idle.text": "",
     "vscord.status.image.small.notInFile.text": "",
-    "editor.fontSize": 14.4,
-    "editor.fontFamily": "monaspace argon, SF Mono Medium, cascadia code, JetBrains Mono, consolas, ibm plex mono", 
+    "editor.fontSize": 14,
+    "editor.fontFamily": "cascadia code, SF Mono, JetBrains Mono, monaspace argon, SF Mono Thin, SF Mono Medium, consolas, ibm plex mono",
     "editor.tokenColorCustomizations": {
         "textMateRules": [
             {
-                "scope": [
-                    "comment"
-                ],
+                "scope": ["comment"],
                 "settings": {
                     "foreground": "#b6b6b6"
                 }
             },
             {
-                "scope": [
-                    "constant",
-                    "storage.modifier",
-                    "storage.type.class.js",
-                    "keyword",
-                    "keyword.function",
-                    "keyword.constructor"
-                ],
+                "scope": ["constant", "storage.modifier", "storage.type.class.js", "keyword", "keyword.function", "keyword.constructor"],
                 "settings": {
                     "fontStyle": "italic"
                 }
             },
             {
-                "scope": [
-                    "support.function.console",
-                    "meta.function-call.js",
-                    "meta.method-call.js"
-                ],
+                "scope": ["keyword.operator"],
                 "settings": {
-                    "fontStyle": ""  // Menghapus italic dari method dan function call
+                    "fontStyle": ""  // Remove italic from operators
                 }
             },
             {
-                "scope": [
-                    "entity.name.function",           
-                    "entity.name.class",              
-                    "meta.parameters",               
-                    "variable.parameter.constructor" 
-                ],
+                "scope": ["support.function.console", "meta.function-call.js", "meta.method-call.js"],
                 "settings": {
-                    "fontStyle": "italic"  // Italic untuk parameter function dan constructor
+                    "fontStyle": ""  // Remove italic for function and method calls
                 }
             },
             {
-                "scope": [
-                    "punctuation.definition.parameters",
-                    "punctuation.section.parameters"
-                ],
+                "scope": ["entity.name.class"],
                 "settings": {
-                    "fontStyle": ""  // Tanda kurung tidak italic
+                    "fontStyle": "italic"  // Italicize class names
+                }
+            },
+            {
+                "scope": ["variable.parameter"],
+                "settings": {
+                    "fontStyle": ""  // Make function parameters non-italic
+                }
+            },
+            {
+                "scope": ["punctuation.definition.parameters", "punctuation.section.parameters"],
+                "settings": {
+                    "fontStyle": ""  // Make parentheses non-italic
                 }
             }
         ]
@@ -98,13 +89,11 @@
     "prettier.withNodeModules": true,
     "prettier.useTabs": true,
     "prettier.semi": false,
-    "terminal.integrated.fontFamily": "sf mono",
+    "terminal.integrated.fontFamily": "SF Mono Thin, sf mono",
     "terminal.integrated.fontWeightBold": "normal",
     "editor.fontWeight": "normal",
     "editor.fontLigatures": false,
     "editor.experimentalWhitespaceRendering": "font",
-    "vscode-pets.throwBallWithMouse": true,
-    "vscode-pets.theme": "castle",
     "indentRainbow.lightIndicatorStyleLineWidth": 1,
     "indentRainbow.ignoreLinePatterns": [
         "/[ \t]* [*]/g",
@@ -116,6 +105,9 @@
     "vscord.behaviour.statusBarAlignment": "Right",
     "terminal.integrated.env.windows": {},
     "console-ninja.featureSet": "Community",
-    "workbench.colorTheme": "One Dark Pro Flat",
-    "files.autoSave": "afterDelay"
+    "files.autoSave": "afterDelay",
+    "vscode-pets.petSize": "medium",
+    "vscode-pets.petType": "totoro",
+    "vscode-pets.theme": "beach",
+    "workbench.colorTheme": "One Dark Pro Darker"
 }
