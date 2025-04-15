@@ -1,6 +1,5 @@
 {
-    "workbench.sideBar.location": "right",
-    "workbench.iconTheme": "vscode-icons",
+    "workbench.sideBar.location": "left",
     "vscord.status.details.text.debugging": "Debug: {file_name}{file_extension}",
     "vscord.status.details.text.editing": "Workspace: {workspace}",
     "vscord.status.details.text.idle": "Away From Keyboard.",
@@ -14,54 +13,26 @@
     "vscord.status.image.large.idle.text": "AFK",
     "vscord.status.image.small.idle.text": "",
     "vscord.status.image.small.notInFile.text": "",
-    "editor.fontSize": 14,
-    "editor.fontFamily": "cascadia code, SF Mono, JetBrains Mono, monaspace argon, SF Mono Thin, SF Mono Medium, consolas, ibm plex mono",
-    "editor.tokenColorCustomizations": {
-        "textMateRules": [
-            {
-                "scope": ["comment"],
-                "settings": {
-                    "foreground": "#b6b6b6"
-                }
-            },
-            {
-                "scope": ["constant", "storage.modifier", "storage.type.class.js", "keyword", "keyword.function", "keyword.constructor"],
-                "settings": {
-                    "fontStyle": "italic"
-                }
-            },
-            {
-                "scope": ["keyword.operator"],
-                "settings": {
-                    "fontStyle": ""  // Remove italic from operators
-                }
-            },
-            {
-                "scope": ["support.function.console", "meta.function-call.js", "meta.method-call.js"],
-                "settings": {
-                    "fontStyle": ""  // Remove italic for function and method calls
-                }
-            },
-            {
-                "scope": ["entity.name.class"],
-                "settings": {
-                    "fontStyle": "italic"  // Italicize class names
-                }
-            },
-            {
-                "scope": ["variable.parameter"],
-                "settings": {
-                    "fontStyle": ""  // Make function parameters non-italic
-                }
-            },
-            {
-                "scope": ["punctuation.definition.parameters", "punctuation.section.parameters"],
-                "settings": {
-                    "fontStyle": ""  // Make parentheses non-italic
-                }
+    "editor.fontSize": 12,
+    "editor.fontFamily": "FiraMono Nerd Font",
+"editor.tokenColorCustomizations": {
+    "textMateRules": [
+        {
+            "scope": [
+                "keyword.control", // Covers control keywords like for, if, while, etc.
+                "keyword.operator.new", // Covers the `new` keyword
+                "storage.type", // Covers type-related keywords like class, function, etc.
+                "entity.name.class", // Covers class names
+                "constant.language.boolean", // Covers true/false
+                "constant.language.null", // Covers null
+                "constant.language.undefined" // Covers undefined
+            ],
+            "settings": {
+                "fontStyle": "italic"
             }
-        ]
-    },
+        }
+    ]
+},
     "editor.wordWrap": "on",
     "editor.cursorStyle": "line",
     "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
@@ -74,7 +45,7 @@
     "prettier.vueIndentScriptAndStyle": true,
     "vscord.app.name": "Visual Studio Code",
     "oneDarkPro.vivid": true,
-    "terminal.integrated.defaultProfile.windows": "Git Bash",
+    "terminal.integrated.defaultProfile.windows": "PowerShell",
     "discord.lowerDetailsNoWorkspaceFound": "",
     "discord.lowerDetailsIdling": "",
     "discord.largeImageIdling": "",
@@ -89,8 +60,9 @@
     "prettier.withNodeModules": true,
     "prettier.useTabs": true,
     "prettier.semi": false,
-    "terminal.integrated.fontFamily": "SF Mono Thin, sf mono",
+    "terminal.integrated.fontFamily": "FiraMono Nerd Font",
     "terminal.integrated.fontWeightBold": "normal",
+    "terminal.integrated.fontSize": 11,
     "editor.fontWeight": "normal",
     "editor.fontLigatures": false,
     "editor.experimentalWhitespaceRendering": "font",
@@ -109,5 +81,28 @@
     "vscode-pets.petSize": "medium",
     "vscode-pets.petType": "totoro",
     "vscode-pets.theme": "beach",
-    "workbench.colorTheme": "One Dark Pro Darker"
+    "workbench.colorTheme": "One Dark Pro",
+    "oneDarkPro.editorTheme": "Ocean",
+    "vscode_custom_css.imports": [
+        "file:///c:/Users/teuku/.vscode/extensions/brandonkirbyson.vscode-animations-2.0.7/dist/updateHandler.js"
+    ],
+    "workbench.iconTheme": "material-icon-theme",
+    "material-icon-theme.folders.color": "#7fcdff",
+    // "background.fullscreen": {
+
+
+    //     "images": ["file:///c:/Users/teuku/Pictures/Saved Pictures/animee.jpg"],
+    //     "opacity": 0.1,
+    //     "size": "cover",
+    //     "position": "center",
+    //     "interval": 0,
+    //     "random": false
+    // },
+    "animations.Command-Palette": "Slide",
+    "animations.Scrolling": "Slide",
+    "animations.Tabs": "Slide",
+    "editor.minimap.size": "fit",
+    "workbench.preferredDarkColorTheme": "One Dark Pro Darker",
+    "animations.Active": "Indent",
+    "apc.imports": [],
 }
